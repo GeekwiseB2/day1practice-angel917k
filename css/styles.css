@@ -34,5 +34,17 @@
   background-color: black;
   height:60px;
   border:1px solid black;
-
 }
+
+/*****************************************Start of Media Quieries****************************/
+@media /* Rule */ screen /*media*/ and (min-width:768px){
+  .footer{
+    background-color: white;
+  }
+}
+@media /* Rule */ screen /*media*/ and (min-width:575px){
+  .promo{
+    background-color: #00ffcc;
+  }
+}
+/*****************************************End of Media Quieries****************************/
