@@ -3,7 +3,9 @@
   height:130.5px;
   border:1px solid black;
 }
-
+.full-cover{
+  margin:15px 10px 15px 10px;
+}
 .nav{
   background-color: green;
   height:60px;
