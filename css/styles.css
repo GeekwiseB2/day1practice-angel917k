@@ -1,16 +1,38 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+.header{
+  background-color: blue;
+  height:130.5px;
+  border:1px solid black;
+}
+.full-cover{
+  margin:15px 10px 15px 10px;
+}
+.nav{
+  background-color: green;
+  height:60px;
+  border:1px solid black;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+.content{
+  background-color: red;
+  height: 345px;
+  border:1px solid black;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+.aside{
+  background-color:rgba(102, 252, 255, 1);
+  height:345px;
+  border:1px solid black;
+
+}
+
+.promo{
+  background-color: orange;
+  height:165px;
+  border:1px solid black;
+}
+.footer{
+  background-color: black;
+  height:60px;
+  border:1px solid black;
+
 }
